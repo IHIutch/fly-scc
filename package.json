@@ -1,0 +1,37 @@
+{
+  "name": "strapi-fly",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/strapi": "4.4.3",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.8.0",
+    "pg-connection-string": "^2.5.0",
+    "redaxios": "^0.5.0",
+    "slugify": "^1.6.5",
+    "strapi-plugin-preview-button": "^0.3.1",
+    "strapi-plugin-sitemap": "^2.0.7",
+    "strapi-plugin-slugify": "^2.2.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3f214675-9955-4bed-a52a-16ca8cc19a65"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
